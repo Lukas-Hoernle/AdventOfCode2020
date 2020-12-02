@@ -47,4 +47,7 @@ public class InputReader {
         }
         return input;
     }
+
+    public InputReader ( ) {
+    }
 }
