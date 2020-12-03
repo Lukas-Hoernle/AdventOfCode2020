@@ -13,7 +13,7 @@ public class InputReader {
         
             ArrayList <String> input = new ArrayList <> ();
         try {
-            File inputFile = new File ( "C:\\Users\\Lukas.Hoernle\\IdeaProjects\\aoc2020\\src\\InputBase" );
+            File inputFile = new File ( "C:\\Users\\Lukas.Hoernle\\IdeaProjects\\aoc2020\\src\\inputBase" );
             Scanner scanner = new Scanner ( inputFile );
             for( String inputLine= scanner.nextLine (); !inputLine.isEmpty ();input.add ( inputLine )){
                 System.out.println ( "inputLine: " + inputLine );
